@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupind Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(63, 62, 62);
+            padding: 3px;
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;    
+        }
+
+        article > aside {
+            background-color: lightslategrey;
+            margin: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            mask-origin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu Site</h1>
+        <nav> <!-- Navegador -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo -->
+        <section id="assuntos"> <!-- Seções -->
+            <p>Esporte | Política | Gastronômia |</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis quisquam, pariatur velit minus repudiandae deserunt eos dignissimos ullam expedita! Enim repudiandae inventore error ratione quo? Maxime nobis perferendis sint distinctio!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article><hr>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam quo, facilis reprehenderit, accusamus ipsum accusantium quis maiores aut fugit temporibus ratione vero amet suscipit. Suscipit excepturi atque impedit ex.</p>
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+</body>
+</html>

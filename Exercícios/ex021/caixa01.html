@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: rgba(224, 222, 222, 0.61);
+            width: 300px;
+            height: 300px;
+            
+            border: 10px solid rgb(180, 177, 177) ;
+            /*
+                border-width: 10px;
+                border-style: solid;
+                border-color: darkslategray;
+            */
+            
+            padding: 10px 10px 10px 10px; 
+            /*Se os valores dos lados forem iguais, então não precisa passar o valor dos 4 lados
+            
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            */
+
+            margin: 20px 20px 25px 20px;
+            /*
+                margin-top: 20px;
+                margin-right: 20px;
+                margin-bottom: 25px;
+                margin-left: 20px;
+            */
+
+            outline: 5px dashed rgb(100, 100, 100);
+            /*
+                outline-width: 5px;
+                outline-style: dashed;
+                outline-color: tomato;
+            */
+        }
+        h1:hover{
+            background-color: red;
+        }
+    
+        a{
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgb(150, 140, 6);
+            border-radius: 50%;
+
+            text-decoration: none;
+            color: blue;
+            font-size: 18px;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplo de box-level, mas os <a href="#">Links são exemplo de caixa inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
